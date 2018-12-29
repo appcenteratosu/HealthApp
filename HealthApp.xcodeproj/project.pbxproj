@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7365177B21D70B7200A023C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365177A21D70B7200A023C8 /* AppDelegate.swift */; };
-		7365177D21D70B7200A023C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365177C21D70B7200A023C8 /* ViewController.swift */; };
-		7365178021D70B7200A023C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365177E21D70B7200A023C8 /* Main.storyboard */; };
 		7365178221D70B7300A023C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7365178121D70B7300A023C8 /* Assets.xcassets */; };
 		7365178521D70B7300A023C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7365178321D70B7300A023C8 /* LaunchScreen.storyboard */; };
 		7365179021D70B7300A023C8 /* HealthAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365178F21D70B7300A023C8 /* HealthAppTests.swift */; };
+		7365179B21D70E6E00A023C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7365179A21D70E6E00A023C8 /* Utilities.swift */; };
+		7365179D21D7118500A023C8 /* IDETemplateMacros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7365179C21D7118500A023C8 /* IDETemplateMacros.plist */; };
+		736517A521D71DE300A023C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736517A421D71DE300A023C8 /* Constants.swift */; };
+		736517AB21D71EC400A023C8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736517AA21D71EC400A023C8 /* NetworkManager.swift */; };
+		736517AD21D71ECF00A023C8 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736517AC21D71ECF00A023C8 /* FirebaseManager.swift */; };
+		736517AF21D71EE300A023C8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736517AE21D71EE300A023C8 /* SessionManager.swift */; };
+		736517B121D71EEE00A023C8 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736517B021D71EEE00A023C8 /* AnalyticsManager.swift */; };
+		736517B321D71EF700A023C8 /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736517B221D71EF700A023C8 /* NotificationsManager.swift */; };
+		736517B521D71F8C00A023C8 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736517B421D71F8C00A023C8 /* Splash.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +35,21 @@
 /* Begin PBXFileReference section */
 		7365177721D70B7200A023C8 /* HealthApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7365177A21D70B7200A023C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7365177C21D70B7200A023C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7365177F21D70B7200A023C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7365178121D70B7300A023C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7365178421D70B7300A023C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7365178621D70B7300A023C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7365178B21D70B7300A023C8 /* HealthAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7365178F21D70B7300A023C8 /* HealthAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAppTests.swift; sourceTree = "<group>"; };
 		7365179121D70B7300A023C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7365179A21D70E6E00A023C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		7365179C21D7118500A023C8 /* IDETemplateMacros.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = IDETemplateMacros.plist; sourceTree = "<group>"; };
+		736517A421D71DE300A023C8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		736517AA21D71EC400A023C8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		736517AC21D71ECF00A023C8 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		736517AE21D71EE300A023C8 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		736517B021D71EEE00A023C8 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		736517B221D71EF700A023C8 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		736517B421D71F8C00A023C8 /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				7365177A21D70B7200A023C8 /* AppDelegate.swift */,
-				7365177C21D70B7200A023C8 /* ViewController.swift */,
-				7365177E21D70B7200A023C8 /* Main.storyboard */,
+				7365179E21D7162000A023C8 /* Utilities */,
+				7365179F21D7167900A023C8 /* Mangers */,
+				736517A021D7172100A023C8 /* Custom Classes */,
+				736517A121D7174400A023C8 /* Storyboards */,
+				736517A221D7175400A023C8 /* Screens */,
+				736517A321D7176B00A023C8 /* Models */,
 				7365178121D70B7300A023C8 /* Assets.xcassets */,
 				7365178321D70B7300A023C8 /* LaunchScreen.storyboard */,
 				7365178621D70B7300A023C8 /* Info.plist */,
@@ -94,6 +112,73 @@
 				7365179121D70B7300A023C8 /* Info.plist */,
 			);
 			path = HealthAppTests;
+			sourceTree = "<group>";
+		};
+		7365179E21D7162000A023C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7365179A21D70E6E00A023C8 /* Utilities.swift */,
+				736517A421D71DE300A023C8 /* Constants.swift */,
+				736517A821D71DFE00A023C8 /* Protocols */,
+				736517A921D71E0800A023C8 /* Extensions */,
+				7365179C21D7118500A023C8 /* IDETemplateMacros.plist */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7365179F21D7167900A023C8 /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+				736517AA21D71EC400A023C8 /* NetworkManager.swift */,
+				736517AC21D71ECF00A023C8 /* FirebaseManager.swift */,
+				736517AE21D71EE300A023C8 /* SessionManager.swift */,
+				736517B021D71EEE00A023C8 /* AnalyticsManager.swift */,
+				736517B221D71EF700A023C8 /* NotificationsManager.swift */,
+			);
+			path = Mangers;
+			sourceTree = "<group>";
+		};
+		736517A021D7172100A023C8 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		736517A121D7174400A023C8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				736517B421D71F8C00A023C8 /* Splash.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		736517A221D7175400A023C8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		736517A321D7176B00A023C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		736517A821D71DFE00A023C8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		736517A921D71E0800A023C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7365179D21D7118500A023C8 /* IDETemplateMacros.plist in Resources */,
 				7365178521D70B7300A023C8 /* LaunchScreen.storyboard in Resources */,
 				7365178221D70B7300A023C8 /* Assets.xcassets in Resources */,
-				7365178021D70B7200A023C8 /* Main.storyboard in Resources */,
+				736517B521D71F8C00A023C8 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7365177D21D70B7200A023C8 /* ViewController.swift in Sources */,
+				7365179B21D70E6E00A023C8 /* Utilities.swift in Sources */,
+				736517B121D71EEE00A023C8 /* AnalyticsManager.swift in Sources */,
+				736517B321D71EF700A023C8 /* NotificationsManager.swift in Sources */,
 				7365177B21D70B7200A023C8 /* AppDelegate.swift in Sources */,
+				736517AF21D71EE300A023C8 /* SessionManager.swift in Sources */,
+				736517AD21D71ECF00A023C8 /* FirebaseManager.swift in Sources */,
+				736517AB21D71EC400A023C8 /* NetworkManager.swift in Sources */,
+				736517A521D71DE300A023C8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7365177E21D70B7200A023C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7365177F21D70B7200A023C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7365178321D70B7300A023C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
